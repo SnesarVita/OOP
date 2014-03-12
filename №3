@@ -1,0 +1,24 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+    int max_iz_dvoh(int a , int b)
+    {int max
+    if (a>b) max=a;
+    else max=b;
+    return max;
+}
+int main()
+{
+    int z =max_iz_dvoh (3,7)
+    if (z1==7) cont <<"ok";
+    else cout "eror";
+
+z1=max_iz_dvoh (2,4);
+if (z1==2) cout <<"ok";
+else cont << "eror";
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
