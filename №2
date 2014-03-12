@@ -1,0 +1,28 @@
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+const int LNAME=25;
+class STUDENT{
+char name[LNAME]; 
+int age; 
+float grade; 
+public:
+STUDENT(); 
+STUDENT(char*,int,float); 
+STUDENT(const STUDENT&); 
+~STUDENT();
+char * GetName() ;
+int GetAge() const;
+float GetGrade() const;
+}
+int main(int argc, char *argv[])
+
+void SetName(char*);
+void SetAge(int);
+void SetGrade(float);
+void Set(char*,int,float);
+void Show(); 
+}
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
