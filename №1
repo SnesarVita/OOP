@@ -1,0 +1,17 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+int naybilshe (int a, int b)
+{
+if (a>b)
+return a ;
+else
+return b;
+}
+int main (int argc, char*argv[])
+{
+cout<<"c=";
+system("PAUSE");
+return EXIT_SUCCESS;
+}
